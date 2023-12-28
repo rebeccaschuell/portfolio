@@ -1,0 +1,17 @@
+.navigation {
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.navigation nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+}
+
+.navigration-about {
+  margin-left: 16px;
+}

@@ -3,6 +3,8 @@
 // ==================================== */
 
 :root {
+  --background-color: #000000;
+  --font-color: #ffffff;
 }
 
 /* ====================================
@@ -17,6 +19,13 @@
 
 html {
   font-size: 16px;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  line-height: 26px;
 }
 
 body {
@@ -30,6 +39,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
